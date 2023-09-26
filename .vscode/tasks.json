@@ -5,14 +5,12 @@
             "label": "C/C++: g++ compilar archivo activo",
             "command": "/usr/bin/g++",
             "args": [
+                "-std=c++17",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
-                "matematicas_util.cxx",
-                "convertir_util.cxx",
-                "leer_argumentos.cxx",
-                "operaciones.cxx",
-                "",
+                "`ls ${workspaceRoot}/src`",
+                "-I",
+                "${workspaceRoot}/include",
                 "-o",
                 "${workspaceRoot}/debug/usui-calc"
             ],

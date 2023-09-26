@@ -11,10 +11,10 @@
 #ifndef __CONVERTIR_UTIL_HXX__
 #define __CONVERTIR_UTIL_HXX__
 
-class c_convertir_util
+class ConvertirUtil
 {
 public:
-    static std::string *matriz_char_a_string(int argc, char **argv);
+    static std::string *matrizCharAString(int argc, char **argv);
 };
 
 #endif // !__CONVERTIR_UTIL_HXX__

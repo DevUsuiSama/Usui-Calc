@@ -3,6 +3,14 @@
 ## Descripción
 Este proyecto tiene como objetivo implementar operaciones aritméticas y utilización de funciones recursivas para realizar estas operaciones.
 
+### Aclaración
+Por el momento el método **procesorRecursivo**, no entendera lo que debe hacer con un exponente decimal.
+
+#### Ejemplo:
+Si introduces una base (2,23) y un exponente del mismo valor (2,23), esta retornara el valor (11.08) en vez de retornar (5,98).<br>
+#### En conclusión:
+El método esta realizar un base (2,23) con un exponente (3). 
+
 ## Comandos [Opciones]
 por el momento este proyecto presenta una sola opción.
 

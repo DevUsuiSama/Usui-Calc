@@ -7,9 +7,9 @@
 #ifndef __ENUMERADOR_COMANDOS_HXX__
 #define __ENUMERADOR_COMANDOS_HXX__
 
-enum e_comandos
+enum EnumeradorComandos
 {
-    POTENCIA = 1
+    POTENCIA
 };
 
 #endif // !__ENUMERADOR_COMANDOS_HXX__

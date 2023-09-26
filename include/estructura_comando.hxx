@@ -7,11 +7,11 @@
 #ifndef __ESTRUCTURA_COMANDO_HXX__
 #define __ESTRUCTURA_COMANDO_HXX__
 
-struct s_comando
+struct EstructuraComando
 {
     int opcion;
-    int parametro1;
-    int parametro2;
+    double parametro1;
+    double parametro2;
 };
 
 #endif // !__ESTRUCTURA_COMANDO_HXX__
